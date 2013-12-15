@@ -32,6 +32,16 @@ module.exports = function (grunt) {
 			temp: ['content/generated/*.temp.md']
 		},
 
+		// HTML validation
+		validation: {
+			options: {
+				reset: true
+			},
+			files: {
+				src: ['index.html']
+			}
+		},
+
 		// Generating the CSS file(s)
 		sass: {
 			main: {
@@ -158,7 +168,10 @@ module.exports = function (grunt) {
 				files: ['content/dailies/*.md', 'content/main/*.md'],
 				tasks: ['md']
 			},
-			files: ['*.html']
+			html: {
+				files: ['index.html'],
+				tasks: ['validation']
+			}
 		}
 	});
 
@@ -173,6 +186,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-html-validation');
 
 	grunt.registerTask('css', ['sass', 'csslint', 'autoprefixer', 'cssmin', 'concat:css']);
 	grunt.registerTask('js', ['jshint', 'uglify']);

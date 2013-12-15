@@ -6,3 +6,5 @@ js/*.min.js
 node_modules
 feed
 content/generated
+
+validation-*.json
