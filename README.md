@@ -1,3 +1,5 @@
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
 A daily digest, 20-25 entries per day, 5 days a week. Topics: front-end web development and the Web Platform. I’m providing this digest for the benefit of the web development community without a profit motive.
 
 ## Timeline
