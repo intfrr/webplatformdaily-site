@@ -1,1 +1,1 @@
-**Update:** I’ve enabled one-time payments. Note: If you don’t want to have your credit/debit card connected to PayPal, you can just remove it after making the payment (Profile > Add/Edit Credit Card).
+**Offline until January 6th 2014:** I’m taking two weeks off in order to implement planned site upgrades. Patrons can expect at least one subscriber-only feature in January :-) 
