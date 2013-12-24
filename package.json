@@ -1,6 +1,6 @@
 {
   "name": "webplatformdaily-site",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "repository": {
     "type": "git",
     "url": "http://github.com/simevidas/webplatformdaily-site.git"
@@ -24,5 +24,12 @@
     "grunt-contrib-cssmin": "~0.7.0",
     "grunt-html-validation": "~0.1.10",
     "load-grunt-tasks": "~0.2.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "subdomain": "simevidas-webplatformdaily-site",
+  "engines": {
+    "node": "0.10.x"
   }
 }
